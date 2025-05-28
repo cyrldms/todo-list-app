@@ -1,0 +1,31 @@
+{
+  "name": "1.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrldms/todo-list-app.git"
+  },
+  "keywords": [
+    "todo",
+    "node",
+    "express"
+  ],
+  "author": "Cyrile Damos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrldms/todo-list-app/issues"
+  },
+  "homepage": "https://github.com/cyrldms/todo-list-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
